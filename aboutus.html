@@ -1,0 +1,483 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>about</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+    .About-us {
+	  width: 100%;
+	  text-align: center;
+	  background-color:#c7ede3;
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	}
+	h1{
+	  color: rgb(22, 72, 252);
+	  font-size: 80px;
+      background: #94b8fa;
+    background: -webkit-linear-gradient(to right, #80d7ff, #0008ff 100%);
+    background: linear-gradient(to right, #80d7ff, #0008ff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+	}
+	img {
+	  border-radius: 50%;
+	}
+	
+	p {
+	  font-size: 20px;
+	} 
+    h3 {
+        font-size: 30px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+	}
+    #a1 {
+      padding: 10px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	  background: #25dbaa;
+      color: white;
+	  border-radius: 8px;
+	 font-size: 50px;	  
+   } 
+#img1{
+    border-radius: 0%;
+    width: 400px;
+    height: 580px;
+}
+
+
+   body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-color:#c7ede3;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    font-family: serif;
+    box-sizing: inherit;
+  }
+  
+  .column {
+    align-items: center;
+    float: left;
+    align-self: center;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .card {
+    background-color: rgb(210, 226, 244);
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgb(15, 15, 15);
+    margin: 8px;
+    border-radius: 10px;
+  }
+  .card:hover {
+    background-color: #161320;
+    background: linear-gradient(#80d7ff, #b5b8fa, #789af2);
+    opacity:1;
+    transform: scale(1.050);
+    transition: 0.3s ease-in;
+  }
+  .about-section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    text-align: center;
+    background: rgb(15, 15, 15);
+    color: #a4a6ff;
+  }
+  
+  .container {
+    right:  100px;
+    padding: 0 16px;
+  }
+
+  .container::after, .row::after {
+    
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #ot {
+    font-size: 40px;
+    text-shadow: none;
+    color: #2189ea;
+    background: #94b8fa;
+    background: -webkit-linear-gradient(to right, #cbe9f6, #080a3d 100%);
+    background: linear-gradient(to right, #c2e5f5, #02066a 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(68, 116, 250);
+  }
+
+  .name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #030543;
+  }
+  .desc {
+    font-size: 17px;
+    color: rgb(13, 11, 117);
+  }
+  #headdesc {
+    text-align: left;
+    font-size: 20px;
+  }
+  .button {
+    border: none;
+    border-radius: 10px;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    background-color: #1f32ff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: rgb(106, 124, 255);
+    opacity:1;
+    transform: scale(1.030);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  /* nav bar */
+.navbar {
+    background: #c7ede3;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-color: #8f23fa;
+    background-image: linear-gradient(to left, #80d7ff, #0008ff, #3d74ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: rgb(39, 21, 198);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.7s ease;
+}
+
+.btn {
+
+    color: rgb(39, 21, 198);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: #5f0a9b;
+    transition: all 0.7s ease;
+    text-decoration: underline;
+}
+
+.navbar__links:hover {
+    color: #5f0a9b;
+    transition: all 0.7s ease;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: -1;
+    }
+
+    #navbar__logo {
+        padding-left: 25px;
+    }
+}
+
+
+/* drop down menu */
+.dropbtn {
+    background: #c7ede3;
+    color: rgb(39, 21, 198);
+    padding: 24px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    color: #5f0a9b;
+    transition: all 0.7s ease;
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(39, 21, 198);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(229, 228, 237);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+    color: rgb(39, 21, 198);
+    ;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+
+<body>
+  <!--navbar-->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">
+        <b>GEEYA</b>
+      </a>
+
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="home.html" class="navbar__links" id="home-page">
+            Home
+          </a>
+        </li>
+        <li class="navbar__item">
+          <a href="sale.html" class="navbar__links" id="services-page">
+            Sale
+          </a>
+        </li>
+        <li class="navbar__item">
+          <a href="aboutus.html" class="navbar__links" id="about-page">
+            About
+          </a>
+        </li>
+
+        
+
+        <li class="navbar__btn">
+          <a href="contact.html" class="btn" id="signup-page">
+            Contact Us
+          </a>
+        </li>
+
+      </ul>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Categories</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Indian</a>
+          <a href="#">Western</a>
+          <a href="#">All</a>
+          <a href="#">design urself</a>
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="About-us">
+    <h1> Inside GEEYA BOUTIQUE</h1>
+	
+	<h3>Style-Centered</h3>
+	<hr>
+	<p><b>GEEYA BOUTIQUE</b> was brought into the world at the crossing point of style and innovation. On account of our<br>
+         motivating assortments and our perfect client assistance, we have been profoundly fruitful since the very beginning.  <br>
+         Browse through our site and check out the latest additions to our collection, and feel free to get in touch with our team <br>
+          if you need any assistance.<br>
+         Happy shopping!</p>
+   
+   
+    <h2 style="text-align:center" id="ot">Founder</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card" style="left: 50px;">
+                <img src="ceo.jpg" alt="preet" style="width:50%">
+                <div class="container" style="align-self: center;">
+                    <h2 class="name">Preet Duggal</h2>
+                    <p class="title">Founder</p>
+                    <p class="desc">Preet Duggal, the Founder of our company has been extremely visionary and creative fashion designer with 10+ years of experience in producing exceptional clothing for any  type of customer. Make new designs for multiple customers by updating with the current fashion trends</p>
+                    <p>
+                        <button class="button">
+                            <a href="mailto:janedoe@gmail.com" target="_blank" style="color:rgb(255, 255, 255)">
+                                Contact
+                            </a>
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card" style="left: 50px;">
+                <img src="loc1.jpg" id="img1" alt="preet" style="width:100%">
+                <div class="container" style="align-self: center;">
+                    <a href="https://maps.app.goo.gl/VTid4PsKbbDfkg5M6?g_st=iw"><h2 class="name">location</h2> </a>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card" style="left: 50px;">
+                <img src="int.jpg" id="img1" alt="preet" style="width:100%">
+                <div class="container" style="align-self: center;">
+                    <a href="https://maps.app.goo.gl/VTid4PsKbbDfkg5M6?g_st=iw"><h2 class="name">location</h2> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <h3> Follow Us On </h3>
+   <a href="#" id="a1" class="fa fa-facebook"></a> 
+   <a href="#" id="a1" class="fa fa-instagram"></a> 
+  </div>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+</body>
+</html>
+
